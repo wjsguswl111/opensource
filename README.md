@@ -9,8 +9,8 @@
 * 처리된 플래그, -(더블 하이픈)과 남아 있는 토큰을 출력
 * 토큰이 플래그와 일치하지 않을 경우 메시지를 표준 오류에 기록함
 
-#####예제
-'''shell
+##### 예제
+```shell
 #!/bin/bash
 set -- $(getopt -q abc:d "$@")
 
@@ -33,9 +33,9 @@ do
   echo "argument #$cnt: $arg"
   cnt=$[ $cnt + 1 ]
 done
-'''
+```
   
 
-#####파일 위치
+##### 파일 위치
 /usr/bin/getopt
 
