@@ -222,6 +222,6 @@ $ awk '{print $0}' employees
 
 
 ###### 출처
-employees 파일 출처 : https://jhnyang.tistory.com/287
-ibm.com/kr-ko
-https://reakwon.tistory.com/164
+* employees 파일 출처 : https://jhnyang.tistory.com/287
+* ibm.com/kr-ko
+* https://reakwon.tistory.com/164
