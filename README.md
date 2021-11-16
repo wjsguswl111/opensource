@@ -39,6 +39,7 @@ do
   cnt=$[ $cnt + 1 ]
 done
 ```
+<img src="D:\oss\getopt.jpg" width="20%" height = "20%">
 
 #### 4) 파일 위치
 > /usr/bin/getopt
@@ -102,6 +103,7 @@ do
   esac
 done
 ```
+<img src="D:\oss\getopts.jpg" width="20%" height = "20%">
 
 ## sed
 
@@ -152,8 +154,9 @@ done
 #### 5) 예제
 ```shell
 $ sed -n '1p' employees;
-$ set -n '1, 3p' employees;
+$ sed -n '1, 3p' employees;
 ```
+<img src="D:\oss\sed.jpg" width="20%" height = "20%">
 
 ## awk
 
@@ -206,6 +209,6 @@ awk 명령에 대한 출력
 
 #### 5) 예제
 ```shell
-awk '{print $0}' employees
+$ awk '{print $0}' employees
 ```
-
+<img src="D:\oss\awk.jpg" width="20%" height = "20%">
