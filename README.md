@@ -15,6 +15,29 @@
 
 #### 3) 예제
 ```shell
+#!/bin/bash
+
+set -- $(getopt -q abc:d "$@")
+
+while [ -n "$1" ]
+do
+  case "$1" in
+      -a) echo "-a option";;
+      -b) echo "-b option";;
+      -c) echo "-c option";;
+      --) whift
+      break;;
+      *) echo "$1 not option"
+   esac
+   shift
+done
+
+cnt=1
+for arg in "$@"
+do
+  echo "argument #$cnt: $arg"
+  cnt=$[ $cnt + 1 ]
+done
 ```
 
 #### 4) 파일 위치
@@ -69,6 +92,15 @@ OptionSting에 포함되지 않은 옵션 문자가 발견되거나 찾은 옵�
 
 #### 5) 예제
 ```shell
+#!/bin/bash
+while getopts "a:b:c" opt
+do
+  case $opt in
+    a) echo "a";;
+    b) echo "b";;
+    c) echo "c";;
+  esac
+done
 ```
 
 ## sed
@@ -118,7 +150,10 @@ OptionSting에 포함되지 않은 옵션 문자가 발견되거나 찾은 옵�
 |>0|오류 발생|
 
 #### 5) 예제
-
+```shell
+$ sed -n '1p' employees;
+$ set -n '1, 3p' employees;
+```
 
 ## awk
 
@@ -170,5 +205,7 @@ awk 명령에 대한 출력
 |>0|오류 발생|
 
 #### 5) 예제
-
+```shell
+awk '{print $0}' employees
+```
 
