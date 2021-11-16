@@ -39,7 +39,7 @@ do
   cnt=$[ $cnt + 1 ]
 done
 ```
-!<img src="D:\oss\getopt.jpg" width="200" height = "200">
+![getopt](https://user-images.githubusercontent.com/76931115/141967578-5a479767-9d7b-485c-ab0c-30b72ecc6c63.jpg)
 
 #### 4) 파일 위치
 > /usr/bin/getopt
@@ -103,7 +103,7 @@ do
   esac
 done
 ```
-!<img src="D:\oss\getopts.jpg" width="200" height = "200">
+![getopts](https://user-images.githubusercontent.com/76931115/141967704-45ed6787-33ff-41a5-ba58-4e6258f6b832.jpg)
 
 ## sed
 
@@ -156,7 +156,7 @@ done
 $ sed -n '1p' employees;
 $ sed -n '1, 3p' employees;
 ```
-!<img src="D:\oss\sed.jpg" width="200" height = "200">
+![sed](https://user-images.githubusercontent.com/76931115/141967754-c5167660-0a51-47e5-abb8-b4a2f20cc468.jpg)
 
 ## awk
 
@@ -211,4 +211,4 @@ awk 명령에 대한 출력
 ```shell
 $ awk '{print $0}' employees
 ```
-!<img src="D:\oss\awk.jpg" width="200" height = "200">
+![awk](https://user-images.githubusercontent.com/76931115/141967793-e2c5c58c-deda-45c8-8df9-3031cd52cb90.jpg)
