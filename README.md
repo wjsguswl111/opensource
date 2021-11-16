@@ -219,3 +219,9 @@ awk 명령에 대한 출력
 $ awk '{print $0}' employees
 ```
 ![awk](https://user-images.githubusercontent.com/76931115/141967793-e2c5c58c-deda-45c8-8df9-3031cd52cb90.jpg)
+
+
+###### 출처
+employees 파일 출처 : https://jhnyang.tistory.com/287
+ibm.com/kr-ko
+https://reakwon.tistory.com/164
